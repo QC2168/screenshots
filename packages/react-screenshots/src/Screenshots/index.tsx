@@ -148,7 +148,7 @@ export default function Screenshots ({ url, width, height, lang, className, ...p
       >
         <ScreenshotsBackground />
         <ScreenshotsCanvas ref={canvasContextRef} />
-        <ScreenshotsOperations />
+        {/* <ScreenshotsOperations /> */}
       </div>
     </ScreenshotsContext.Provider>
   )
